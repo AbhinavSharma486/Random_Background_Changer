@@ -1,0 +1,43 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    padding: 1rem 2rem;
+    background-color: #333;
+    color: white;
+    border-radius: 50px;
+}
+
+button {
+    padding: 10px;
+    margin: 10px;
+    background-color: orange;
+    border-radius: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background 0.4s;
+}
+
+button:hover {
+    background-color: rgb(12, 130, 83);
+    color: white;
+}
